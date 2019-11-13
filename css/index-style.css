@@ -9,3 +9,28 @@
     src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
     font-weight: 400;
 }
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.sixteen-nine {
+    position: relative;
+}
+
+.sixteen-nine:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.sixteen-nine > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
