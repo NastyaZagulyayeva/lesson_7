@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: "DroidSans-Regular";
+    font-family: "DroidSerif-Regular";
     src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
     font-weight: 400;
 }
@@ -40,7 +40,7 @@ video {
     top: 30%;
 }
 
-.greeting h2 {
+.greeting h3 {
     width: 65%;
     margin: 0 auto;
     font-family: "DroidSans-Bold", serif;
@@ -62,7 +62,7 @@ video {
     text-align: center;
     white-space: nowrap;
     color: #33cc66;
-    font-size: 50px;
+    font-size: 3.7vw;
 }
 
 .icon-wraper:after, .icon-wraper:before {
@@ -86,4 +86,48 @@ video {
     margin-bottom: 3%;
 }
 
+#about {
+    background-color: #34495E;
+}
 
+#about h3 {
+    padding: 8% 0 4%;
+    margin: 0 auto;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 3.34vw;
+    color: #FFF;
+}
+
+#about p {
+    padding: 0 25%;
+    font-family: "DroidSerif-Regular",serif;
+    font-size: 1.78vw;
+    color: #FFF;
+}
+
+#about .service {
+    padding: 10% 5% 5%;
+}
+
+#about .sevice-item i {
+    margin: 0 33%;
+    padding: 4% 4% 0 4%;
+    font-size: 5.56vw;
+    border: 3px solid #FFF;
+    border-radius: 4.1vw;
+    color: #FFF;
+}
+
+#about .sevice-item .service-title {
+    padding-top: 5%;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.93vw;
+    text-align: center;
+}
+
+#about .sevice-item .about-service {
+    padding: 5% 20% 1%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.48vw;
+    text-align: center;
+}
