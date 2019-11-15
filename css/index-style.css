@@ -132,7 +132,7 @@ video {
     text-align: center;
 }
 
-#portfolio h3 {
+#portfolio h3, #contact h3 {
     padding: 8% 0 4%;
     font-family: "DroidSans-Bold", sans-serif;
     font-size: 3.34vw;
@@ -229,6 +229,7 @@ video {
     font-family: "DroidSans-Bold", sans-serif;
     font-size: 1.92vw;
     text-align: center;
+    color: #FFF;
 }
 
 #team p {
@@ -259,5 +260,84 @@ video {
     border-radius: 2.4vw;
     color: #FFF;
 }
+
+#contact form {
+    padding-left: 40%;
+}
+
+#contact p {
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#contact .contact {
+    padding-top: 6%;
+}
+
+#contact form input {
+    width: 80%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.6vw;
+    border: none;
+    border-bottom: 0.15vw solid #2ecc71;
+}
+
+#contact form input#name + #email {
+    margin-top: 5%;
+}
+
+#contact form textarea {
+    width: 80%;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.6vw;
+    border: none;
+    border-bottom: 0.15vw solid #2ECC71;
+}
+
+#contact form #btnSubmit {
+    width: 30%;
+    margin: 8% 0;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 18.56px;
+    border: none;
+    border-radius: 2vw;
+    background-color: #2ECC71;
+    color: #FFF;
+
+}
+
+#contact form #btnSubmit:hover {
+    background-color: #75CF9B;
+    color: #FFF;
+}
+
+#contact address {
+    width: 50%;
+    font-size: 1.49vw;
+}
+
+#contact address p {
+    padding-top: 6%;
+    text-align: left;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.3vw;
+}
+
+#contact address p:first-child {
+    padding-top: 0;
+}
+
+#contact address a {
+    text-align: left;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.49vw;
+}
+
+
 
 
