@@ -17,6 +17,11 @@ video {
 
 .sixteen-nine {
     position: relative;
+    background-image: url(../img/rocks.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .sixteen-nine:before {
@@ -107,6 +112,13 @@ video {
 
 #about .service {
     padding: 10% 0 10%;
+}
+
+#about .sevice-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #about .sevice-item i {
@@ -381,3 +393,8 @@ footer .social-footer li + li {
 
 }
 
+@media only screen and (max-width: 320px) {
+    .greeting {
+        top: 10%;
+    }
+}
