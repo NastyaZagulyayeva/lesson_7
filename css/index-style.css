@@ -90,7 +90,7 @@ video {
     background-color: #34495E;
 }
 
-#about h3 {
+#about h3, #team h3 {
     padding: 8% 0 4%;
     text-align: center;
     font-family: "DroidSans-Bold",sans-serif;
@@ -209,4 +209,55 @@ video {
 #portfolio .gallery-products .img-wraper:hover .hoverEffect {
     opacity: 1;
 }
+
+#team {
+    background-color: #2980B9;
+}
+
+#team img {
+    display: block;
+    margin: 0 auto;
+    width: 18.4vw;
+    height: 18.4vw;
+    border-radius: 9.2vw;
+    border: 0.2vw solid #FFF; 
+    object-fit: cover;
+}
+
+#team .employee-name {
+    padding: 7% 0;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.92vw;
+    text-align: center;
+}
+
+#team p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.48vw;
+    text-align: center;
+    line-height: 1.4;
+    color: #FFF;
+}
+
+#team .social {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+#team .social li + li {
+    margin-left: 5%;
+}
+
+#team .social i {
+    padding: 23% 20% 0;
+    font-size: 2.98vw;
+    text-align: center;
+    border: 0.2vw solid #FFF;
+    border-radius: 2.4vw;
+    color: #FFF;
+}
+
 
