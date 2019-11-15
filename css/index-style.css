@@ -106,7 +106,7 @@ video {
 }
 
 #about .service {
-    padding: 10% 0 5%;
+    padding: 10% 0 10%;
 }
 
 #about .sevice-item i {
@@ -155,7 +155,7 @@ video {
 }
 
 #portfolio .gallery-products {
-    margin: 5% 15% 4%;
+    margin: 5% 15% 7%;
 }
 
 #portfolio .gallery-products .img-wraper {
@@ -245,14 +245,14 @@ video {
 #team .social {
     display: flex;
     justify-content: center;
-    margin: 5% 0;
+    margin: 5% 0 10%;
 }
 
 #team .social li + li {
     margin-left: 5%;
 }
 
-#team .social i {
+#team .social i, footer .social-footer i {
     padding: 23% 20% 0;
     font-size: 2.98vw;
     text-align: center;
@@ -273,7 +273,7 @@ video {
 }
 
 #contact .contact {
-    padding-top: 6%;
+    padding: 6% 0 6%;
 }
 
 #contact form input {
@@ -338,6 +338,46 @@ video {
     font-size: 1.49vw;
 }
 
+footer {
+    padding: 6% 13%;
+    background-color:  #2C3E50;
+}
 
+footer .navbar-brand {
+    width: 10.4vw;
+    height: auto;
+}
 
+footer .address {
+    margin-top: 5%;
+}
+
+footer .address p{
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.2vw;
+    color: #FFF;
+}
+
+footer .address a {
+    display: block;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.2vw;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .social-footer {
+    display: flex;
+    justify-content: end;
+    margin: 20% 0 0;
+}
+
+footer .social-footer li a {
+    text-decoration: none;
+}
+
+footer .social-footer li + li {
+    margin-left: 10%;
+
+}
 
