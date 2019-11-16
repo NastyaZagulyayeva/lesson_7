@@ -5,9 +5,18 @@
 }
 
 @font-face {
-    font-family: "DroidSans-Regular";
+    font-family: "DroidSerif-Regular";
     src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
     font-weight: 400;
+}
+
+header .nav-bar {
+    padding: 1% 5% 1%;
+}
+
+header #navbarNav li a {
+    color: #FFF;
+    text-decoration: none;
 }
 
 video {
@@ -17,6 +26,16 @@ video {
 
 .sixteen-nine {
     position: relative;
+}
+
+.sixteen-nine {
+    min-height: 350px;
+    position: relative;
+    background-image: url(../img/rocks.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .sixteen-nine:before {
@@ -34,3 +53,653 @@ video {
     bottom: 0;
 }
 
+.greeting {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+}
+
+.greeting h3 {
+    width: 65%;
+    margin: 0 auto;
+    font-family: "DroidSans-Bold", serif;
+    font-size: 5.5vw;
+    text-align: center;
+    color: #FFF;
+}
+
+.icon-wraper {
+    z-index: 1;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.icon-check-circle {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #33cc66;
+    font-size: 4.1vw;
+}
+
+.icon-wraper:after, .icon-wraper:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 47%;
+    height: 1px;
+    vertical-align: middle;
+    background: #FFF;
+}
+
+.icon-wraper:after {
+    left: 1%;
+    margin-bottom: 3%;
+}
+
+.icon-wraper:before {
+    left: -1%;
+    margin-bottom: 3%;
+}
+
+#about {
+    background-color: #34495E;
+}
+
+#about h3, #team h3 {
+    padding: 8% 0 4%;
+    text-align: center;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+
+#about p {
+    padding: 0 25%;
+    font-family: "DroidSerif-Regular",serif;
+    font-size: 24px;
+    color: #FFF;
+}
+
+#about .service {
+    padding: 10% 0 10%;
+}
+
+#about .sevice-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about .sevice-item i {
+    margin: 0 33%;
+    padding: 4% 4% 0 4%;
+    font-size: 75px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+#about .sevice-item .service-title {
+    padding: 5% 0 0 0;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+#about .sevice-item .about-service {
+    padding: 5% 20% 1%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#portfolio h3, #contact h3 {
+    padding: 8% 0 4%;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#portfolio #nav-products .nav-item + .nav-item {
+    margin-left: 3%;
+}
+
+#portfolio #nav-products .nav-item a {
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #2ECC71;
+}
+
+#portfolio .gallery-products {
+    margin: 5% 15% 7%;
+}
+
+#portfolio .gallery-products .img-wraper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#portfolio .gallery-products .img-wraper img {
+    width: 250px;
+    height: 250px; 
+    padding: 3%;
+    border: 1px solid #4682B4;
+    object-fit: cover;
+}
+
+#portfolio .gallery-products .img-wraper-carousel img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    color: #FFF;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect {
+    width: 233px;
+    height: 233px; 
+    margin: 3%;
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 24px;
+    transition: opacity  1s ease-in-out;
+    top: 0;
+    background-color:rgba(44,62,80, 0.8);
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect p {
+    padding: 20% 6%;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect button {
+    display: block;
+    padding: 3% 7%;
+    margin: auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 13px;
+    text-align: center;
+    border:  2px solid #FFF;
+    border-radius: 20px;
+    background: transparent;
+    color: #FFF;
+}
+
+#portfolio .gallery-products .img-wraper:hover .hoverEffect {
+    opacity: 1;
+}
+
+#team {
+    background-color: #2980B9;
+}
+
+#team img {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid #FFF; 
+    object-fit: cover;
+}
+
+#team .employee-name {
+    padding: 7% 0;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: #FFF;
+}
+
+#team p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+    color: #FFF;
+}
+
+#team .social {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 10%;
+}
+
+#team .social li + li {
+    margin-left: 5%;
+}
+
+#team .social i, footer .social-footer i {
+    padding: 23% 20% 0;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+#contact p {
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#contact .contact {
+    padding: 6% 0 6%;
+}
+
+#contact form input {
+    width: 80%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid #2ecc71;
+}
+
+#contact form input#name + #email {
+    margin-top: 5%;
+}
+
+#contact form textarea {
+    width: 80%;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid #2ECC71;
+}
+
+#contact form #btnSubmit {
+    width: 30%;
+    margin: 8% 0;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 18.56px;
+    border: none;
+    border-radius: 15px;
+    background-color: #2ECC71;
+    color: #FFF;
+
+}
+
+#contact form #btnSubmit:hover {
+    background-color: #75CF9B;
+    color: #FFF;
+}
+
+#contact address {
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 20px;
+}
+
+#contact address p {
+    padding-top: 6%;
+    text-align: left;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 16px;
+}
+
+#contact address p:first-child {
+    padding-top: 0;
+}
+
+#contact address a {
+    text-align: left;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 20px;
+}
+
+footer {
+    padding: 6% 13%;
+    background-color:  #2C3E50;
+}
+
+footer .navbar-brand {
+    height: auto;
+}
+
+footer .address {
+    margin-top: 5%;
+}
+
+footer .address p{
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 16px;
+    color: #FFF;
+}
+
+footer .address a {
+    display: block;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .social-footer {
+    display: flex;
+    justify-content: end;
+    margin: 20% 0 0;
+}
+
+footer .social-footer li a {
+    text-decoration: none;
+}
+
+footer .social-footer li + li {
+    margin-left: 10%;
+
+}
+
+@media only screen and (max-width: 320px) {
+    .video, .video .sixteen-nine {
+        height: 100vh;
+    }
+
+    .greeting {
+        top: 35%;
+    }
+
+    .greeting  h3 {
+        width: 80%;
+        font-size: 7.5vw
+    }
+
+    .icon-check-circle {
+        font-size: 7.1vw;
+    }
+    
+    .icon-wraper:after, .icon-wraper:before {
+        width: 45%;
+    }
+
+    #about h3, #portfolio h3, #team h3, #contact h3 {
+        font-size: 35px;
+        padding-bottom: 7%;
+    }
+
+    #about p {
+        padding: 0 15%;
+        font-size: 15px;
+    }
+
+    #about .sevice-item + .sevice-item {
+        margin-top: 10%;
+    }
+
+    #about .sevice-item i {
+        font-size: 45px;
+    }
+    
+    #about .sevice-item .service-title, #team .employee-name {
+        font-size: 20px;
+    }
+    
+    #about .sevice-item .about-service, #team p, #contact p, #contact form input, #contact form textarea, #contact form #btnSubmit {
+        font-size: 15px;
+    }
+
+    #portfolio .gallery-products {
+        margin: 5% 2% 7%;
+    }
+
+    #portfolio #nav-products .nav-item a {
+        font-size: 15px;
+    }
+
+    #team .social li + li {
+        margin-left: 8%;
+    }
+
+    #team .social i, footer .social-footer i {
+        font-size: 26px;
+    }
+
+    #team img {
+        width: 170px;
+        height: 170px;
+    }
+
+    #contact address a, #contact address {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    footer .address a, footer .address p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .video, .video .sixteen-nine {
+        height: 100vh;
+    }
+
+    .greeting {
+        top: 35%;
+    }
+
+    .greeting  h3 {
+        width: 80%;
+        font-size: 7.5vw
+    }
+
+    .icon-check-circle {
+        font-size: 7.1vw;
+    }
+    
+    .icon-wraper:after, .icon-wraper:before {
+        width: 45%;
+    }
+
+    #about h3, #portfolio h3, #team h3, #contact h3 {
+        font-size: 35px;
+        padding-bottom: 7%;
+    }
+
+    #about p {
+        padding: 0 15%;
+        font-size: 15px;
+    }
+
+    #about .sevice-item + .sevice-item {
+        margin-top: 10%;
+    }
+
+    #about .sevice-item i {
+        font-size: 55px;
+    }
+    
+    #about .sevice-item .service-title, #team .employee-name {
+        font-size: 20px;
+    }
+    
+    #about .sevice-item .about-service, #team p, #contact p, #contact form #btnSubmit {
+        font-size: 15px;
+    }
+
+    #portfolio .gallery-products {
+        margin: 5% 2% 7%;
+    }
+
+    #portfolio #nav-products .nav-item a {
+        font-size: 15px;
+    }
+
+    #team .social i, footer .social-footer i {
+        font-size: 26px;
+    }
+
+    #team img {
+        width: 170px;
+        height: 170px;
+    }
+
+    #contact .contact {
+        padding: 6% 20% 6%; 
+    }
+
+    #contact form input, #contact form textarea {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #contact address a, #contact address {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    footer .address a, footer .address p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-check-circle {
+        font-size: 7.1vw;
+    }
+    
+    .icon-wraper:after, .icon-wraper:before {
+        width: 45%;
+    }
+
+    #about h3, #portfolio h3, #team h3, #contact h3 {
+        font-size: 35px;
+        padding-bottom: 7%;
+    }
+
+    #about p {
+        padding: 0 15%;
+        font-size: 17px;
+    }
+
+    #about .sevice-item + .sevice-item {
+        margin-top: 10%;
+    }
+
+    #about .sevice-item i {
+        font-size: 55px;
+    }
+    
+    #about .sevice-item .service-title, #team .employee-name {
+        font-size: 23px;
+    }
+    
+    #about .sevice-item .about-service, #team p, #contact p, #contact form #btnSubmit {
+        font-size: 17px;
+    }
+
+    #portfolio .gallery-products {
+        margin: 5% 2% 7%;
+    }
+
+    #portfolio #nav-products .nav-item a {
+        font-size: 18px;
+    }
+
+    #team .social i, footer .social-footer i {
+        font-size: 26px;
+    }
+
+    #team img {
+        width: 170px;
+        height: 170px;
+    }
+
+    #contact .contact {
+        padding: 6% 10% 6%;
+    }
+
+    #contact form input, #contact form textarea {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #contact address a, #contact address {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    footer .address a, footer .address p {
+        font-size: 11px;
+    }
+
+    footer .social-footer {
+        margin: 5% 0 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #about p {
+        padding: 0 15%;
+    }
+
+    #about .sevice-item + .sevice-item {
+        margin-top: 10%;
+    }
+
+    #portfolio #nav-products .nav-item a {
+        font-size: 25px;
+    }
+
+    #portfolio .gallery-products {
+        margin: 5% 13% 7%;
+    }
+
+    #contact form input, #contact form textarea {
+        width: 90%;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #contact form {
+        padding-left: 40%;
+    }
+
+    #contact address {
+        width: 200px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #about p {
+        padding: 0 15%;
+    }
+
+    #about .sevice-item i {
+        padding: 5% 6% 0 6%;
+    }
+
+    #portfolio #nav-products .nav-item a {
+        font-size: 25px;
+    }
+
+    #portfolio .gallery-products {
+        margin: 5% 23% 7%;
+    }
+
+    #contact form input, #contact form textarea {
+        width: 90%;
+        font-size: 22px;
+    }
+}
