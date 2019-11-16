@@ -10,6 +10,15 @@
     font-weight: 400;
 }
 
+header .nav-bar {
+    padding: 1% 5% 1%;
+}
+
+header #navbarNav li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 video {
     width: 100%;
     height: auto;
