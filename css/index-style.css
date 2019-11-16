@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: "DroidSans-Regular";
+    font-family: "DroidSerif-Regular";
     src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
     font-weight: 400;
 }
@@ -49,7 +49,7 @@ video {
     top: 30%;
 }
 
-.greeting h2 {
+.greeting h3 {
     width: 65%;
     margin: 0 auto;
     font-family: "DroidSans-Bold", serif;
@@ -71,7 +71,7 @@ video {
     text-align: center;
     white-space: nowrap;
     color: #33cc66;
-    font-size: 50px;
+    font-size: 3.7vw;
 }
 
 .icon-wraper:after, .icon-wraper:before {
@@ -95,4 +95,298 @@ video {
     margin-bottom: 3%;
 }
 
+#about {
+    background-color: #34495E;
+}
+
+#about h3, #team h3 {
+    padding: 8% 0 4%;
+    text-align: center;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 3.34vw;
+    color: #FFF;
+}
+
+#about p {
+    padding: 0 25%;
+    font-family: "DroidSerif-Regular",serif;
+    font-size: 1.78vw;
+    color: #FFF;
+}
+
+#about .service {
+    padding: 10% 0 10%;
+}
+
+#about .sevice-item i {
+    margin: 0 33%;
+    padding: 4% 4% 0 4%;
+    font-size: 5.56vw;
+    border: 3px solid #FFF;
+    border-radius: 4.1vw;
+    color: #FFF;
+}
+
+#about .sevice-item .service-title {
+    padding-top: 5%;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.93vw;
+    text-align: center;
+}
+
+#about .sevice-item .about-service {
+    padding: 5% 20% 1%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.48vw;
+    text-align: center;
+}
+
+#portfolio h3, #contact h3 {
+    padding: 8% 0 4%;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 3.34vw;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#portfolio #nav-products .nav-item + .nav-item {
+    margin-left: 3%;
+}
+
+#portfolio #nav-products .nav-item a {
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.7vw;
+    border-radius: 1.4vw;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #2ECC71;
+}
+
+#portfolio .gallery-products {
+    margin: 5% 15% 7%;
+}
+
+#portfolio .gallery-products .img-wraper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#portfolio .gallery-products .img-wraper img {
+    width: 18.53vw;
+    height: 18.53vw; 
+    padding: 3%;
+    border: 0.1vw solid #4682B4;
+    object-fit: cover;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect {
+    width: 17.41vw;
+    height: 17.41vw;
+    margin: 3%;
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.78vw;
+    transition: opacity  1s ease-in-out;
+    top: 0;
+    background-color:rgba(44,62,80, 0.8);
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect p {
+    padding: 20% 6%;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect button {
+    display: block;
+    padding: 3% 7%;
+    margin: auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 0.96vw;
+    text-align: center;
+    border:  0.1vw solid #FFF;
+    border-radius: 1.4vw;
+    background: transparent;
+    color: #FFF;
+}
+
+#portfolio .gallery-products .img-wraper:hover .hoverEffect {
+    opacity: 1;
+}
+
+#team {
+    background-color: #2980B9;
+}
+
+#team img {
+    display: block;
+    margin: 0 auto;
+    width: 18.4vw;
+    height: 18.4vw;
+    border-radius: 9.2vw;
+    border: 0.2vw solid #FFF; 
+    object-fit: cover;
+}
+
+#team .employee-name {
+    padding: 7% 0;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.92vw;
+    text-align: center;
+    color: #FFF;
+}
+
+#team p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.48vw;
+    text-align: center;
+    line-height: 1.4;
+    color: #FFF;
+}
+
+#team .social {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 10%;
+}
+
+#team .social li + li {
+    margin-left: 5%;
+}
+
+#team .social i, footer .social-footer i {
+    padding: 23% 20% 0;
+    font-size: 2.98vw;
+    text-align: center;
+    border: 0.2vw solid #FFF;
+    border-radius: 2.4vw;
+    color: #FFF;
+}
+
+#contact form {
+    padding-left: 40%;
+}
+
+#contact p {
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#contact .contact {
+    padding: 6% 0 6%;
+}
+
+#contact form input {
+    width: 80%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.6vw;
+    border: none;
+    border-bottom: 0.15vw solid #2ecc71;
+}
+
+#contact form input#name + #email {
+    margin-top: 5%;
+}
+
+#contact form textarea {
+    width: 80%;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.6vw;
+    border: none;
+    border-bottom: 0.15vw solid #2ECC71;
+}
+
+#contact form #btnSubmit {
+    width: 30%;
+    margin: 8% 0;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 18.56px;
+    border: none;
+    border-radius: 2vw;
+    background-color: #2ECC71;
+    color: #FFF;
+
+}
+
+#contact form #btnSubmit:hover {
+    background-color: #75CF9B;
+    color: #FFF;
+}
+
+#contact address {
+    width: 50%;
+    font-size: 1.49vw;
+}
+
+#contact address p {
+    padding-top: 6%;
+    text-align: left;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.3vw;
+}
+
+#contact address p:first-child {
+    padding-top: 0;
+}
+
+#contact address a {
+    text-align: left;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.49vw;
+}
+
+footer {
+    padding: 6% 13%;
+    background-color:  #2C3E50;
+}
+
+footer .navbar-brand {
+    width: 10.4vw;
+    height: auto;
+}
+
+footer .address {
+    margin-top: 5%;
+}
+
+footer .address p{
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.2vw;
+    color: #FFF;
+}
+
+footer .address a {
+    display: block;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 1.2vw;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .social-footer {
+    display: flex;
+    justify-content: end;
+    margin: 20% 0 0;
+}
+
+footer .social-footer li a {
+    text-decoration: none;
+}
+
+footer .social-footer li + li {
+    margin-left: 10%;
+
+}
 
