@@ -9,3 +9,81 @@
     src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
     font-weight: 400;
 }
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.sixteen-nine {
+    position: relative;
+}
+
+.sixteen-nine:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.sixteen-nine > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.greeting {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+}
+
+.greeting h2 {
+    width: 65%;
+    margin: 0 auto;
+    font-family: "DroidSans-Bold", serif;
+    font-size: 5.9vw;
+    text-align: center;
+    color: #FFF;
+}
+
+.icon-wraper {
+    z-index: 1;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.icon-check-circle {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #33cc66;
+    font-size: 50px;
+}
+
+.icon-wraper:after, .icon-wraper:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 47%;
+    height: 1px;
+    vertical-align: middle;
+    background: #FFF;
+}
+
+.icon-wraper:after {
+    left: 1%;
+    margin-bottom: 3%;
+}
+
+.icon-wraper:before {
+    left: -1%;
+    margin-bottom: 3%;
+}
+
+
