@@ -11,12 +11,23 @@
 }
 
 header .nav-bar {
+    z-index: 999;
     padding: 1% 5% 1%;
 }
 
 header #navbarNav li a {
     color: #FFF;
     text-decoration: none;
+}
+
+.nav-colored {
+    background-color: #233140;
+    z-index: 2;
+}
+
+.nav-transparent {
+    background-color: transparent;
+    z-index: 1;
 }
 
 video {
