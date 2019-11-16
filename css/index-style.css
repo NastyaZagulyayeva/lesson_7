@@ -92,7 +92,7 @@ video {
 
 #about h3 {
     padding: 8% 0 4%;
-    margin: 0 auto;
+    text-align: center;
     font-family: "DroidSans-Bold",sans-serif;
     font-size: 3.34vw;
     color: #FFF;
@@ -106,7 +106,7 @@ video {
 }
 
 #about .service {
-    padding: 10% 5% 5%;
+    padding: 10% 0 5%;
 }
 
 #about .sevice-item i {
@@ -131,3 +131,82 @@ video {
     font-size: 1.48vw;
     text-align: center;
 }
+
+#portfolio h3 {
+    padding: 8% 0 4%;
+    font-family: "DroidSans-Bold", sans-serif;
+    font-size: 3.34vw;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#portfolio #nav-products .nav-item + .nav-item {
+    margin-left: 3%;
+}
+
+#portfolio #nav-products .nav-item a {
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 1.7vw;
+    border-radius: 1.4vw;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #2ECC71;
+}
+
+#portfolio .gallery-products {
+    margin: 5% 15% 4%;
+}
+
+#portfolio .gallery-products .img-wraper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#portfolio .gallery-products .img-wraper img {
+    width: 18.53vw;
+    height: 18.53vw; 
+    padding: 3%;
+    border: 0.1vw solid #4682B4;
+    object-fit: cover;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect {
+    width: 17.41vw;
+    height: 17.41vw;
+    margin: 3%;
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.78vw;
+    transition: opacity  1s ease-in-out;
+    top: 0;
+    background-color:rgba(44,62,80, 0.8);
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect p {
+    padding: 20% 6%;
+    font-family: "DroidSans-Bold",sans-serif;
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+#portfolio .gallery-products .img-wraper .hoverEffect button {
+    display: block;
+    padding: 3% 7%;
+    margin: auto;
+    font-family: "DroidSerif-Regular", serif;
+    font-size: 0.96vw;
+    text-align: center;
+    border:  0.1vw solid #FFF;
+    border-radius: 1.4vw;
+    background: transparent;
+    color: #FFF;
+}
+
+#portfolio .gallery-products .img-wraper:hover .hoverEffect {
+    opacity: 1;
+}
+
